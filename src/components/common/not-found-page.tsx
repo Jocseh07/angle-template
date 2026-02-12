@@ -39,7 +39,9 @@ export function NotFoundPage({
 						<Button variant="outline" onClick={() => router.history.back()}>
 							Go back
 						</Button>
-						<Button render={<Link to={homeTo} />}>Go home</Button>
+						<Button asChild>
+							<Link to={homeTo}>Go home</Link>
+						</Button>
 					</div>
 				</EmptyContent>
 			</Empty>

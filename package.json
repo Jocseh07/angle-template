@@ -9,7 +9,8 @@
     "test": "vitest run",
     "format": "biome format",
     "lint": "biome lint",
-    "check": "biome check"
+    "check": "biome check",
+    "typecheck": "tsgo --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -53,6 +54,7 @@
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.544.0",
+    "motion": "^12.34.0",
     "next-themes": "^0.4.6",
     "react": "^19.2.0",
     "react-day-picker": "^9.13.0",

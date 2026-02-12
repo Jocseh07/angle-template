@@ -1,7 +1,6 @@
 import type { ErrorComponentProps } from "@tanstack/react-router";
 import { useRouter } from "@tanstack/react-router";
 import { AlertTriangleIcon } from "lucide-react";
-import { CopyButton } from "@/components/animate-ui/components/buttons/copy";
 import { Button } from "@/components/ui/button";
 import {
 	Empty,
@@ -11,6 +10,7 @@ import {
 	EmptyMedia,
 	EmptyTitle,
 } from "@/components/ui/empty";
+import { CopyButton } from "./copy";
 
 type ErrorPageProps = {
 	title?: string;
