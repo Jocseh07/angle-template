@@ -10,7 +10,7 @@
     "format": "biome format",
     "lint": "biome lint",
     "check": "biome check",
-    "typecheck": "tsgo --noEmit"
+    "typecheck": "tsgo --noEmit && biome check"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -47,6 +47,7 @@
     "@tanstack/react-router": "^1.132.0",
     "@tanstack/react-router-devtools": "^1.132.0",
     "@tanstack/router-plugin": "^1.132.0",
+    "@typescript/native-preview": "7.0.0-dev.20260219.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -80,7 +81,6 @@
     "@vitejs/plugin-react": "^5.0.4",
     "babel-plugin-react-compiler": "^1.0.0",
     "jsdom": "^27.0.0",
-    "typescript": "^5.7.2",
     "vite": "^7.1.7",
     "vitest": "^3.0.5",
     "web-vitals": "^5.1.0"
